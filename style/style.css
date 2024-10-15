@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+h1 {
+            text-align: center;
+            background-color: black;
+            background-size: cover;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            font-family: Bubblegum Sans;
+            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em black;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    width: 800px;
+}
+
+body {
+    background: linear-gradient(rgb(90, 0, 0), red);
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.afficheFilm {
+    width: 500px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+th:nth-child(2) {
+    text-align: left;
+    background-color: rgb(90, 0, 0);
+    color: white;
+}
+
+td:nth-child(1) {
+    width: 80px;
+}
+
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+
+.personnage {
+    font-style: italic;
+    color: rgb(90, 0, 0);
+}
